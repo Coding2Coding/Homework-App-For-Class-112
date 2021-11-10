@@ -1,0 +1,29 @@
+#bodyTag {
+    background: linear-gradient(rgb(204, 232, 255) 0%, lightskyblue 100%);
+    font-family: Calibri;
+    color: lightcoral;
+}
+
+#title {
+    background: rgb(232, 214, 255);
+    border-style: dashed;
+    border-color: lightcoral;
+    border-radius: 14px;
+    width: 700px;
+}
+
+#instructions {
+    background: lightcoral;
+    color: rgb(232, 214, 255);
+    border-style: dashed;
+    border-color: rgb(232, 214, 255);
+    border-radius: 14px;
+    width: 700px;
+}
+
+#takePicture, #identifyEmoji {
+    background: rgb(204, 232, 255);
+    border-style: dashed;
+    border-color: lightcoral;
+    border-radius: 4px;
+}

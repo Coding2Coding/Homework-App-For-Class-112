@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Homework App For Class 110</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+    <body id="bodyTag">
+        <center>
+            <br>
+            <h2 id="title">Hand Sign Recognition Website</h2>
+            <br>
+            <h4 id="instructions">
+                The emojis that can be identified are: 
+                <span>&#128077</span>
+                , 
+                <span>&#128400</span>
+                , 
+                <span>&#9996</span>
+                , 
+                <span>&#128076</span>
+            </h4>
+            <br>
+            <div>
+                <h4>Camera: </h4>
+                <br>
+                <div id="camera" width="700px" height="700"></div>
+                <br>
+                <button id="takePicture" onclick="takePicture()" style="color: lightcoral;">Take Picture</button>
+            </div>
+            <div>
+                <h4>Picture: </h4>
+                <br>
+                <div id="picture"></div>
+                <br>
+                <button id="identifyEmoji" onclick="identifyEmoji()" style="color: lightcoral;">Identify Emoji</button>
+            </div>
+            <div>
+                <h4>
+                    Prediction 1: 
+                    <span id="prediction1"></span>
+                    <span id="emoji1"></span>
+                </h4>
+                <br>
+                <br>
+                <h4>
+                    Prediction 2: 
+                    <span id="prediction2"></span>
+                    <span id="emoji2"></span>
+                </h4>
+            </div>
+        </center>
+    </body>
+    <script src="script.js"></script>
+</html>
